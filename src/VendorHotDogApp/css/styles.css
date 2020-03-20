@@ -1,0 +1,451 @@
+/*css styles*/
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+ body{
+        background:blue;
+        font-size:100%;
+        font-family:verdana, helvetica, arial;
+/*        background-image: url("../images/football.jpg");*/
+        background-attachment:fixed;
+    }
+    
+body.home #wrapper {
+        width:980px;
+        margin:2px auto 10px auto;
+        background:#fff;
+        background:skyblue;
+        overflow:hidden;
+        padding:20px;
+ /* top was 240, too high, 160 is perfect*/
+}
+body.about #wrapper {
+        width:980px;
+        margin:2px auto 10px auto;
+        background:#fff;
+        background:skyblue;
+        overflow:hidden;
+        padding:20px;
+ /* top was 240, too high, 160 is perfect*/
+}
+
+body.caregiver #wrapper {
+        width:980px;
+        margin:2px auto 10px auto;
+        background:#fff;
+        background:skyblue;
+        overflow:hidden;
+        padding:20px;
+ /* top was 240, too high, 160 is perfect*/
+}
+  
+body.application #wrapper {
+        width:980px;
+        margin:2px auto 10px auto;
+        background:#fff;
+        background:skyblue;
+        overflow:hidden;
+        padding:20px;
+ /* top was 240, too high, 160 is perfect*/
+}
+body.gallery #wrapper {
+        width:980px;
+        margin:2px auto 10px auto;
+        background:#fff;
+        background:skyblue;
+        overflow:hidden;
+        padding:20px;
+ /* top was 240, too high, 160 is perfect*/
+}
+body.contact #wrapper {
+        width:980px;
+        margin:2px auto 10px auto;
+        background:#fff;
+        background:skyblue;
+        overflow:hidden;
+        padding:20px;
+ /* top was 240, too high, 160 is perfect*/
+}
+body.big #wrapper {
+     width:940px;
+        margin:185px auto 10px auto;
+        background:#fff;
+        background:skyblue;
+        overflow:hidden;
+        padding:20px;
+ /* top was 240, too high, 160 is perfect*/
+}
+
+
+body.inner #wrapper {
+    width: 940px;
+    margin:185px auto 10px auto; /* top was 240, too high, 185 is perfect these are for other pages*/
+}
+
+body.home nav#primary li:nth-child(1), 
+body.about nav#primary li:nth-child(2),
+body.caregivers nav#primary li:nth-child(3),
+body.application nav#primary li:nth-child(4),
+body.gallery nav#primary li:nth-child(5),
+body.contact nav#primary li:nth-child(6){
+    background: orange;
+    
+}
+header {
+/*     background:yellow;*/
+/*    padding:20px 0;*/
+    position: relative;/*moves the body but not the background if position is fixed*/
+    top:0;
+    left:0;
+    width: 100%;
+    background: #fff;
+}
+
+header img{
+    width: 200px;
+    margin:20px auto 20px auto;top, right, bottom, left
+    
+    
+}
+
+nav#primary {
+    height: 50px;
+    line-height: 50px;
+    background:#eee;
+}
+
+ul {
+    list-style-type:none;
+}
+
+nav#primary ul{
+    width: 1100px;
+    margin:0 auto;
+}
+nav#primary li {
+    float: left;
+    list-style-type: none;
+    width: 15%;
+    text-align: center;
+}
+nav#primary a {
+    text-decoration: none;
+    display: block;
+    color: blue;
+}
+nav#primary a:hover{
+    background:orange; 
+}
+nav#primary a:active{
+    background:black; 
+}
+nav#sub {
+    
+}
+
+nav#sub ul{
+    width:90%; 
+    
+}
+
+nav#sub li{
+    list-style-type: none;
+    background: lightblue;
+    margin-bottom: 10px;
+    height:30px;
+    line-height: 30px;
+    
+    
+    
+}
+
+
+nav#sub a{
+    text-decoration:none; 
+    display:block;
+    padding-left: 20px;
+    
+}
+nav#sub a:hover {
+    background:blue;
+    color: white;
+}
+
+
+#banner{
+    margin-bottom:  20px;
+/*    background:#f00;*/
+        
+    
+}
+
+main {
+/*    height: 400px;*/
+/*    background: lightblue;*/
+    width: 560px;
+    float: left;
+    
+}
+
+aside {
+/*    height: 300px;*/
+    background: orange; 
+/*
+      border:1px solid #666;
+      float: right;
+      margin: 0 1.5%;
+      width: 30%;
+      display:block;
+*/
+      border:1px solid #666;
+      position:relative;
+      width:340px;
+      padding:15px;
+      float: right;
+      overflow:hidden;
+/*
+      display:inline-block;
+      vertical-align: top;
+      border: 1px dotted blue;
+      word-wrap: break-word;
+*/
+    
+}
+aside p {
+    font-size:.875em;
+    color:blue;
+    margin-bottom:8px;
+    
+}
+
+footer{
+    border-top:1px dotted #666;
+    /*height:50px;
+    line-height: 50px;*/
+    clear: both;
+    
+}
+footer ul {
+        padding-left: 20px;
+}
+    
+ footer li {
+     
+        float:left;
+        list-style-type: none;
+        margin:30px;
+        font-size:.875em;
+        color:black;
+     
+        
+}
+
+
+a   {
+    color:blue;
+    text-decoration: none;
+}
+
+a.color {
+    color:black;
+    
+}
+
+
+/*
+a.active {
+    color: blue;
+    text-decoration: none;
+}
+*/
+img  {
+      max-width:100%;
+      display: block;
+}
+ 
+    img.left {
+        float:left;
+        margin: 0 30px 20px 0; /*top, right, bottom, left - trbl */
+        border:2px solid #f00;/*#0000ff is blue*/
+        max-width:100%;
+    }
+    
+    img.right {
+        float:right;
+        margin-left:30px;
+        margin-bottom:30px; 
+        
+}
+
+img.center {
+        display: block;
+        margin:0 auto 30px auto ;/*top, right, bottom, left*/
+    }
+
+img#logo {
+    float: none;
+    padding:5px;
+/*    padding: 35px 0;*/
+    text-align: center;
+    max-width: 100%; 
+/*
+    float:left;
+    padding-top:15px;
+*/
+}
+    
+figcaption {
+    padding:8px;
+    background:tan;
+    font-size:.875em;
+    font-style: italic;
+}
+figure {
+    margin-bottom:20px; 
+}
+/*+++++++Typography+++++*/
+
+p {
+/*    width: 940px;*/
+/*  text-align: center;*/
+    margin-bottom:20px;
+    line-height: 1.5;
+}
+
+p.background{
+    background: lightblue;
+    padding: 20px;
+     font-size:1.453em;
+    font-family:"Times New Roman", serif;
+    line-height: 1.2;
+    font-style: italic;
+    
+    
+}
+
+p.care {
+    width:980px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding:20px;
+    
+}
+
+table{
+    width: 80%;
+    margin: auto;
+}
+
+table.menu figure{
+    display: inline-block;
+    float:left;
+/*    width: 32%;*/
+    margin: .2em;
+   
+}
+
+table.menu figcaption{
+        padding-bottom: 1em;
+}
+
+table.menu figure img{
+    height: 250px;
+    margin: auto;
+}
+
+h1 {
+     text-align: center;
+     letter-spacing: 10px;
+     font-family: default;
+/*    font-size: 48px;*/
+     color:blue;
+    
+/*
+    margin-bottom: 7px;
+    font-family:"Times New Roman", serif;
+*/
+    font-size:2.0em;
+    line-height: 1.15;
+    
+}
+h1 a {
+    text-decoration:none;
+}
+h2 {
+    margin-bottom: 7px;
+    font-family:"Times New Roman", serif;
+    font-size:1.953em;
+    line-height: 1.15;
+}
+h3 + figure{
+    margin:18px 0 20px 0; /*top right bottom left*/
+}
+
+h3 {
+    margin-bottom: 7px;
+    font-family:"Times New Roman", serif;
+    font-size:1.563em;
+    line-height: 1.1;
+    text-align:center;
+}
+h3.caregiver{
+    margin-bottom: 7px;
+    font-family:"Times New Roman", serif;
+    font-size:1.563em;
+    line-height: 1.1;
+    
+}
+.men{
+    align-content: center;
+    background: lightblue;
+}
+p.valid {
+    width:50px;
+    margin:0 auto 20px auto;
+    
+    
+}
+
+table {
+        width:920px;
+        border:1px solid #F00;
+        border-collapse: collapse;
+        margin:0 auto;
+    }
+    
+    td {
+        border:1px solid #F00;
+        width:25%;
+        vertical-align:top;
+        padding:10px;
+    }
+    
+    td img {
+        width:210px;
+    }
+    
+    td p {
+        font-style:italic;
+        font-size:.92em;
+        font-family:verdana, helvetica, arial;
+    }
+    
+    th {
+        background:yellow;
+        padding:15px;
+        font-size:2em;
+    }
+    
+
+
+
+
+
+
+
+

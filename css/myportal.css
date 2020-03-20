@@ -1,0 +1,68 @@
+/* GLOBAL STYLES */
+
+body{
+  font-family:"century gothic", verdana,sans-serif
+}
+
+img {
+     width:50%;
+     float:right;
+}
+
+/*  DESKTOP */
+@media all and (min-width:1279px) {
+    
+    html {
+      background-color: blue;
+      background-image: url(../images/football.jpg);
+    }
+    
+   body { 
+      background-color:white;
+       width:80%;
+       margin:auto;
+       padding:2em;
+       min-height:700px;
+       -webkit-border-radius:10px;
+       border-radius:10px;
+   }
+    
+   img.tablet, img.phone {
+    display:none;
+   }
+}
+       
+       
+/* TABLET */
+@media all and (min-width:481px) and (max-width:1278px) {
+    html{
+    background-image: url(../images/football.jpg);
+    }
+   body {
+       background-color:blue;
+       width:65%;
+       margin:auto;
+       padding:2em;
+       min-height:700px;
+   }
+   img.desktop, img.phone {
+       display:none;
+   }
+
+}
+/* PHONE */
+@media all and (max-width:480px) {
+    body {
+       background-color:black;
+        color:white;
+    }
+    img.desktop, img.tablet {
+        display: none;
+    }
+}
+        
+       
+       
+       
+       
+    
